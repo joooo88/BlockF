@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>블록에프 | BlockF</title>
+
+
+  <!--meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!--css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+
+  <!-- scss -->
+  <link rel="stylesheet" href="css/index_main.css">
+  <link rel="stylesheet" href="css/index_moblie_eng.css">
+
+  <!--favicon--->
+  <link href="img/favicon2.ico" rel="icon">
+  <link href="img/favicon2.ico" rel="apple-touch-icon">
+
+  <!--js-->
+  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/menu_scroll.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+  <header >
+
+    <div class="hd_all">
+
+      <hgroup>
+
+        <a href="#home">
+          <h1 class="menu_style">
+            <img src="img/BlcokF_logo-200x200.png" alt="logo">
+          </h1>
+        </a>
+
+      </hgroup>
+
+
+      <nav class="pc_menu">
+        <ul class="menu_style">
+
+          <li><a href="#home" class="scroll"onClick="return false;">Home</a></li>
+          <li><a href="#about" class="scroll" onClick="return false;">About</a></li>
+          <li><a href="#coin" class="scroll" onClick="return false;">BlcokF Coin</a></li>
+          <li><a href="#roadmap" class="scroll" onClick="return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onClick="return false;">Contact</a></li>
+          <li class="lang"><a href="index.html" class="scroll"><img src="img/lan_kor.png" alt="langiconKo"></a></li>
+
+
+        </ul>
+      </nav>
+
+
+     <!--반응형-->
+
+     <div class="m_menu_button">
+
+      <a href="#" class="menu-trigger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+    </div>
+
+     <!--반응형 js-->
+     <script type="text/javascript">
+
+      $(function () {
+        $(".menu-trigger").click(function (e) {
+          e.preventDefault();
+          $(this).toggleClass('active-' + 1);
+        });
+      });
+
+    </script>
+
+    <nav class="m_menu">
+      <ul class="menu_style">
+        <li><a href="#home" class="scroll" onClick="return false;">Home</a></li>
+        <li><a href="#about" class="scroll" onClick="return false;">About</a></li>
+        <li><a href="#coin" class="scroll" onClick="return false;">BlockF Coin</a></li>
+        <li><a href="#roadmap" class="scroll" onClick="return false;">Roadmap</a></li>
+        <li><a href="#contact" class="scroll" onClick="return false;">Contact</a></li>
+        <li class="lang"><a href="index.html" class="scroll"><img src="img/lan_kor.png" alt="langiconKo"></a></li>
+      </ul>
+    </nav>
+
+    <!--반응형 js-->
+    <script type="text/javascript">
+      $(function () {
+        $(".m_menu_button").click(function () {
+          $(".m_menu").animate({ height: "toggle" }, 250);
+        });
+      });
+
+    </script>
+
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+    <section id="home">
+      <div class="main_video">
+        <video autoplay muted loop playsinline>
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_wrap">
+        <div class="home_content container">
+
+          <div class="home_logo">
+            <img src="/img/BlcokF_logo 300x300.png">
+          </div>
+          
+          <div class="home_txt" data-aos="fade-right" data-aos-duration="1000">
+            <h2 class="tracking-in-expand"  >BlockF</h2>
+            
+            <h4>The paradigm of new fashion reselling.<br> <bb class="h4color" >Block F</bb> is pioneering </h4>
+            
+            <p>
+              chronic problems in the existing fashion reselling market<br>
+              Rising Expectations of Market Participants<br>
+              a rapidly changing situation in the market<br>
+              We will present a groundbreaking plan through the introduction of blockchain and fashion reselling market
+            </p>
+            <br>
+
+            <div class="home_btn">
+              <button type="button" onclick="location.href='BlockF_whitepaper-Kor.pdf' " class="custom-btn btn-6"><span><img src="/img/icon_book_01.png" target="_blank" >Whitepaper</span></button>
+              <button type="button" onclick="location.href='https://blockf.app/sign-in' " class="custom-btn btn-6"><span><img src="/img/icons_wallet_01.png" target="_blank" >Wallet</span></button>
+            </div>
+          </div>
+ 
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <article class="about1">
+        <div class="aboutgroup">
+          <div class="boxabout" data-aos="fade-down" data-aos-duration="1000">
+            About
+          </div>
+          <div class="intro1_wrap container">
+            <h3 data-aos="fade-down" data-aos-duration="1000">Introduction</h3>
+            <h4 data-aos="fade-down" data-aos-duration="1000">Block F</h4>
+            <p data-aos="fade-up" data-aos-duration="2000">
+              Through a new system that could not be provided by the existing luxury fashion and clothing reselling market <br>
+              We're going to open a fashion reselling market where anyone can participate from all over the world
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="about2">
+        <div class="intro2_wrap container">
+          <h3 data-aos="fade-down" data-aos-duration="1000">BlockF <br>
+            Blockchain
+            Systems</h3>
+          <p data-aos="fade-down" data-aos-duration="1000">
+            Transparency, irreversibility, and cost-effectiveness of blockchain are central factors leading to the change of the fashion retail market
+          </p>
+        </div> 
+
+        <div class="about2_list">
+          <div class="list_1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="icon_img">
+              <div class="icon_box1"><img src="/img/icon1.png"></div>
+            </div>
+            <div class="icon_boxtext">
+              <div class="icon_text1">01.</div>
+              <div class="icon_detail1">Prevention of Fabrication in Clothing NFTs</div>
+            </div>
+          </div>
+          <div class="list_2" data-aos="fade-right"data-aos-easing="linear" data-aos-duration="1000">
+            <div class="icon_img">
+              <div class="icon_box2"><img src="/img/icon7.png"></div>
+            </div>
+            <div class="icon_boxtext">
+              <div class="icon_text2">02.</div>
+              <div class="icon_detail2">Accurate payment of the transaction price of the work<br>
+                indefinite resale fee for the work</div>
+            </div>
+          </div>
+          <div class="list_3" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="icon_img">
+              <div class="icon_box3"><img src="/img/icon8.png"></div>
+            </div>
+            <div class="icon_boxtext">
+              <div class="icon_text3">03.</div>
+              <div class="icon_detail3">Support for international transactions of works </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="about2_itrobox" data-aos="fade-up"  data-aos-easing="linear" data-aos-duration="1000">
+          <img class="intro_pc" src="/img/intro1.png">
+          <img class="intro_m" src="/img/intro_m_1.png">
+        </div>
+      </article>
+
+      <article class="about3" >
+        <div class="intro3_wrap container">
+          <h3 data-aos="fade-down" data-aos-duration="1000">BlockF Economic Ecosystem Members and their Roles
+          </h3>
+        </div>
+        <div class="tied_frame">
+          <div class="bundle_box" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000" >
+            <div class="bundle1" >
+              <div class="bundle_1">
+                <div class="icon_img">
+                  <div class="icon_box1"><img src="/img/icon4.png"></div>
+                </div>
+                <div class="bundle_frame">
+                  <div class="bundle_text1">Fashion designer</div>
+                  <div class="bundle_detail1">This is the most anticipated member of the economy ecosystem.</div>
+                </div>
+              </div>
+              <div class="bundle_2">
+                <div class="icon_img">
+                  <div class="icon_box2"><img src="/img/icon6.png"></div>
+                </div>
+                <div class="bundle_frame">
+                  <div class="bundle_text2">Fashion Product NFT Commercialization Service Provider</div>
+                  <div class="bundle_detail2">Companies or individuals that provide specialized services to commercialize clothing products from designers and clothing manufacturers to meet the intentions and needs of the original authors.</div>
+                </div>
+              </div>
+            </div>
+            <div class="bundle2" >
+              <div class="bundle_3">
+                <div class="icon_img">
+                  <div class="icon_box3"><img src="/img/icon5.png"></div>
+                </div>
+                <div class="bundle_frame">
+                  <div class="bundle_text3">Fashion product resale transaction individual</div>
+                  <div class="bundle_detail3">It targets millions of users around the world who are already familiar with reselling fashion products through luxury investment techniques such as existing sneakers and luxury bags.</div>
+                </div>
+              </div>
+              <div class="bundle_4">
+                <div class="icon_img">
+                  <div class="icon_box4"><img src="/img/icon3.png"></div>
+                </div>
+                <div class="bundle_frame">
+                  <div class="bundle_text4">Fashion Products NFT Platform Service Provider</div>
+                  <div class="bundle_detail4">No matter how good the product is, if there is no platform to trade, the market itself cannot participate. These are service providers in the marketplace that provide an easy place for anyone to mint and trade their fashion NFT products through existing ERC20 and ERC721 technologies.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about3_itrobox" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+            <img class="intro_pc" src="/img/intro2.png">
+          </div>
+
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="coin">
+       <div class="coin_group">
+          <div class="box_coin" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000">
+            BlockF Coin
+          </div>
+          <div class="coin_wrap container">
+            <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">BlockF Budget Allocation Plan</h3>
+    
+            <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+              As it is NFT commercialization of fashion products, participation in international online offline events and marketing will be the key to the business. <br>
+              Therefore, we plan to allocate budget and incentives to properly motivate team members, prepare reserve funds for all possible emergencies, <br>
+              and set the foundation for business budgeting and active promotion through token sales.
+            </p>
+          </div>
+        </div>
+
+        <div class="chart_image container">
+          <img class="square" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" src="/img/chart_eng.svg">
+          <div class="pie" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+            <p>Coin name: BlockF | Symbol: BLKF | Protocol: ERC20 </p>
+            <img  src="/img/pie_chart_eng.svg">
+          </div>
+        </div>
+    </section>
+
+    <section id="roadmap">
+      <div class="road_group">
+        <div class="box_road" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+          Roadmap
+        </div>
+        <div class="road_wrap container">
+          <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">Roadmap</h3>
+        </div>
+      </div>
+
+      <content >
+        <article data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="road_1">
+          <div class="road_box">
+            <div class="road_icon"><img src="/img/icon1.png"></div>
+          </div>
+          <div class="icon_road_detai1">
+            <div class="icon_title_1">2022.</div>
+            <div class="icon_desc_1"> Q4 BlockF Launched</div>
+          </div>
+        </div>
+        <div class="road_2">
+          <div class="road_box">
+            <div class="road_icon"><img src="/img/icon7.png"></div>
+          </div>
+          <div class="icon_road_detai2">
+            <div class="icon_title_2">2023.</div>
+            <div class="icon_desc_2"> Q1 Platform Core Design Block F Coin Application Technology Confirmed <br>
+              Q2 Block F wallet production to promote and provide convenience<br>
+              Q3 FIRST LISTING ON INTERNATIONAL EXCHANGE AND ITS EXPOSURE ON INTERNATIONAL LEADING<br>
+              Q4 Fashion NFT product diversification and expansion
+            </div>
+          </div>
+        </div>
+        <div class="road_3">
+          <div class="road_box">
+            <div class="road_icon"><img src="/img/icon8.png"></div>
+          </div>
+          <div class="icon_road_detai3">
+            <div class="icon_title_3">2024.</div>
+            <div class="icon_desc_3"> Q1 Listing on the Second International Exchange <br>
+              Q2 Participated in the International NFT Fashion Exhibition<br>
+              Q3 Expands Global NFT Exchanges<br>
+              Q4 Block F Platform 1st Advancement
+            </div>
+          </div>
+        </div>
+        </article>
+
+        
+        
+        
+      </content>
+    </section>
+
+    <section id="contact" >
+      <div class="cont_group">
+        <div class="box_cont"data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000">
+          contact
+        </div>
+        <div class="contact_wrap container">
+          <h3 data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000" >Contact</h3>
+          </div>
+      </div>
+      <div class="cont_img"><img src="/img/cont_so.png"></div>      
+      <div class="form_box" data-aos="fade-up" data-aos-duration="1000">
+        <form method="post" onsubmit="return validate();">
+        <input type="text" id="email" placeholder="Email" required>>
+        <input type="text" id="text" placeholder="Message" required>>
+        <input type="submit" value="SUBMIT">
+      </form>
+      </div>
+      
+
+    </section>
+
+  </main>
+  
+
+  <footer>
+    <div class="footer_area container">
+      <div class="white_pp">
+        <h4>Whitepaper</h4>
+        <button type="button" onclick="location.href='BlockF_whitepaper-Kor.pdf' " target="_blank">WhitePaper_Kor</button>
+        <button type="button" onclick="location.href='BlockF_whitepaper-Eng.pdf' ">WhitePaper_Eng</button>
+      </div>
+
+      <ul class="inc">
+        <h4>BlockF Inc.</h4>
+        <!-- <li>운영사 :</li> -->
+        <!-- <li>예금주 : 김성중</li> -->
+        <li>address : 425 Teheran-ro, Gangnam-gu, Seoul</li>
+       <!--  <li>wallet : <span onclick="location.href='#' "></span></li> -->
+        <li>customer service center : 070-8018-7692 <span>(Mon-Fri 10am-5pm. Lunch 12-2pm)</span></li>
+      </ul>
+
+      <div class="sns">
+        <h4>Community</h4>
+        <button type="button" onclick="location.href='#' " target="_blank"><i class="xi-telegram"></i></button>
+        <button type="button" onclick="location.href='#' "><i class="xi-kakaotalk"></i></button>
+      </div>
+    </div>
+
+    <p class="footer_p">The foundation is only conducting tasks related to coin production and platform operation, wallet management, and exchange listing promotion and management.</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+<script src="js/header.js"></script>
+
+
+</body>
+
+
+</html>

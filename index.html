@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>블록에프 | BlockF</title>
+
+  <!--meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!--css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+
+  <!-- scss -->
+  <link rel="stylesheet" href="css/index_main.css">
+  <link rel="stylesheet" href="css/index_moblie.css">
+
+  <!--favicon--->
+  <link href="img/favicon2.ico" rel="icon">
+  <link href="img/favicon2.ico" rel="apple-touch-icon">
+
+  <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/menu_scroll.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+</head>
+
+
+
+<body>
+
+
+  <header >
+
+    <div class="hd_all">
+
+      <hgroup>
+
+        <a href="#home">
+          <h1 class="menu_style">
+            <img src="img/BlcokF_logo-200x200.png" alt="logo">
+          </h1>
+        </a>
+
+      </hgroup>
+
+
+      <nav class="pc_menu">
+        <ul class="menu_style">
+
+          <li><a href="#home" class="scroll"onClick="return false;">Home</a></li>
+          <li><a href="#about" class="scroll" onClick="return false;">About</a></li>
+          <li><a href="#coin" class="scroll" onClick="return false;">BlcokF Coin</a></li>
+          <li><a href="#roadmap" class="scroll" onClick="return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onClick="return false;">Contact</a></li>
+          <li class="lang"><a href="index_eng.html" class="scroll"><img src="img/lan_eng.png" alt="langiconEn"></a></li>
+
+
+        </ul>
+      </nav>
+
+
+     <!--반응형-->
+
+     <div class="m_menu_button">
+
+      <a href="#" class="menu-trigger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+    </div>
+
+     <!--반응형 js-->
+     <script type="text/javascript">
+
+      $(function () {
+        $(".menu-trigger").click(function (e) {
+          e.preventDefault();
+          $(this).toggleClass('active-' + 1);
+        });
+      });
+
+    </script>
+
+    <nav class="m_menu">
+      <ul class="menu_style">
+        <li><a href="#home" class="scroll" onClick="return false;">Home</a></li>
+        <li><a href="#about" class="scroll" onClick="return false;">About</a></li>
+        <li><a href="#coin" class="scroll" onClick="return false;">BlockF Coin</a></li>
+        <li><a href="#roadmap" class="scroll" onClick="return false;">Roadmap</a></li>
+        <li><a href="#contact" class="scroll" onClick="return false;">Contact</a></li>
+        <li class="lang"><a href="index_eng.html" class="scroll"><img src="img/lan_eng.png" alt="langiconEn"></a></li>
+      </ul>
+    </nav>
+
+    <!--반응형 js-->
+    <script type="text/javascript">
+      $(function () {
+        $(".m_menu_button").click(function () {
+          $(".m_menu").animate({ height: "toggle" }, 250);
+        });
+      });
+
+    </script>
+
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+    <section id="home">
+      <div class="main_video">
+        <video autoplay muted loop playsinline>
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_wrap">
+        <div class="home_content container">
+
+          <div class="home_logo">
+            <img src="/img/BlcokF_logo 300x300.png">
+          </div>
+          
+          <div class="home_txt" data-aos="fade-right" data-aos-duration="1000">
+            <h2 class="tracking-in-expand"  >BlockF 블록에프</h2>
+            
+            <h4>새로운 패션 리셀링의 패러다임.<br> <bb class="h4color" >블록에프</bb>가 개척합니다 </h4>
+            
+            <p>
+              기존 패션 리셀링 시장의 고질적인 문제<br>
+              높아지는 시장 참여자들의 기대<br>
+              시장의 급변하는 상황<br>
+              블록체인 도입, 패션 리셀링 마켓을 통해 획기적인 방안을 제시하겠습니다.
+            </p>
+            <br>
+
+            <div class="home_btn">
+              <button type="button" onclick="location.href='BlockF_whitepaper-Kor.pdf' " class="custom-btn btn-6"><span><img src="/img/icon_book_01.png" target="_blank" >Whitepaper</span></button>
+              <button type="button" onclick="location.href='https://blockf.app/sign-in' " class="custom-btn btn-6"><span><img src="/img/icons_wallet_01.png" target="_blank" >Wallet</span></button>
+            </div>
+          </div>
+ 
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <article class="about1">
+        <div class="aboutgroup">
+          <div class="boxabout" data-aos="fade-down" data-aos-duration="1000">
+            About
+          </div>
+          <div class="intro1_wrap container">
+            <h3 data-aos="fade-down" data-aos-duration="1000">Introduction</h3>
+            <h4 data-aos="fade-down" data-aos-duration="1000">블록에프</h4>
+    
+            <p data-aos="fade-up" data-aos-duration="2000">
+              기존 명품 패션, 의류 리셀링 시장이 제공할 수 없던 새로운 시스템을 통해 <br>
+              누구나 전세계에서 참여 가능한 패션 리셀링 마켓의 장을 열어가겠습니다
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="about2">
+        <div class="intro2_wrap container">
+          <h3 data-aos="fade-down" data-aos-duration="1000">BlockF <br>
+            Blockchain
+            Systems</h3>
+          <p data-aos="fade-down" data-aos-duration="1000">
+            블록체인의 투명성, 비가역성, 비용효율성. 패션리테일 시장의 변화를 이끄는 중심 요소 입니다.
+          </p>
+        </div> 
+
+        <div class="about2_list">
+          <div class="list_1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="icon_img">
+              <div class="icon_box1"><img src="/img/icon1.png"></div>
+            </div>
+            <div class="icon_boxtext">
+              <div class="icon_text1">01.</div>
+              <div class="icon_detail1">의류 NFT의 보작 방지</div>
+            </div>
+          </div>
+          <div class="list_2" data-aos="fade-right"data-aos-easing="linear" data-aos-duration="1000">
+            <div class="icon_img">
+              <div class="icon_box2"><img src="/img/icon7.png"></div>
+            </div>
+            <div class="icon_boxtext">
+              <div class="icon_text2">02.</div>
+              <div class="icon_detail2">작품 거래대금의 정확한 지급 및 <br>
+                무기한 작품 재판매 수수료</div>
+            </div>
+          </div>
+          <div class="list_3" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="icon_img">
+              <div class="icon_box3"><img src="/img/icon8.png"></div>
+            </div>
+            <div class="icon_boxtext">
+              <div class="icon_text3">03.</div>
+              <div class="icon_detail3">작품의 국제적 거래지원</div>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="about2_itrobox" data-aos="fade-up"  data-aos-easing="linear" data-aos-duration="1000">
+          <img class="intro_pc" src="/img/intro1.png">
+          <img class="intro_m" src="/img/intro_m_1.png">
+        </div>
+      </article>
+
+      <article class="about3" >
+        <div class="intro3_wrap container">
+          <h3 data-aos="fade-down" data-aos-duration="1000">블록에프(BlockF) 이코노미 생태계 구성원과 구성원의 역할</h3>
+        </div>
+        <div class="tied_frame">
+          <div class="bundle_box" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000" >
+            <div class="bundle1" >
+              <div class="bundle_1">
+                <div class="icon_img">
+                  <div class="icon_box1"><img src="/img/icon4.png"></div>
+                </div>
+                <div class="bundle_frame">
+                  <div class="bundle_text1">패션디자이너</div>
+                  <div class="bundle_detail1">가장 많은 기대감을 가지고 있는 이코노미 생태계 구성원 입니다.</div>
+                </div>
+              </div>
+              <div class="bundle_2">
+                <div class="icon_img">
+                  <div class="icon_box2"><img src="/img/icon6.png"></div>
+                </div>
+                <div class="bundle_frame">
+                  <div class="bundle_text2">패션상품 NFT상품화 서비스 제공자</div>
+                  <div class="bundle_detail2">디자이너와 의류제조사들의 의류 상품을 원작자들의 의도 및 요구에 맞춰 NFT상품화 하는 전문서비스를 제공하는 기업들 또는 개인입니다.</div>
+                </div>
+              </div>
+            </div>
+            <div class="bundle2" >
+              <div class="bundle_3">
+                <div class="icon_img">
+                  <div class="icon_box3"><img src="/img/icon5.png"></div>
+                </div>
+                <div class="bundle_frame">
+                  <div class="bundle_text3">패션상품 재판매 거래 개인</div>
+                  <div class="bundle_detail3">기존의 스니커즈, 명품 가방등의 명품 재테크등을 통해 이미 패션상품 재판매 거래에 익숙한 전세계의 수백만 사용자가 대상입니다.</div>
+                </div>
+              </div>
+              <div class="bundle_4">
+                <div class="icon_img">
+                  <div class="icon_box4"><img src="/img/icon3.png"></div>
+                </div>
+                <div class="bundle_frame">
+                  <div class="bundle_text4">패션상품 NFT 플랫폼 서비스 제공자</div>
+                  <div class="bundle_detail4">상품이 아무리 좋아도 거래할 플랫폼이 없다면 시장의 참여 자체가 불가합니다.
+                    기존 ERC20 및 ERC721기술을 통해 누구라도 쉽게 자신의 패션NFT상품을 민팅하고 거래할 수 있는 장을 제공하는 시장의 서비스 제공자들입니다.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about3_itrobox" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+            <img class="intro_pc" src="/img/intro2.png">
+          </div>
+
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="coin">
+       <div class="coin_group">
+          <div class="box_coin" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+            BlockF Coin
+          </div>
+          <div class="coin_wrap container">
+            <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">블록에프(BlockF) 예산 배분 계획</h3>
+    
+            <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+              패션상품의 NFT사업화인 만큼 국제적인 온라인 오프라인 행사의 참여와 마케팅이 사업의 관건이 될 것이라는 판단입니다. <br>
+              이에 팀 구성원들에게 적절한 동기부여를 위해 예산을 배정하여 인센티브를 지급하고,<br>
+              발생가능한 모든 돌발상황에 대비하여 예비비를 준비하며, 토큰 세일을 통해 사업의 예산을 마련하고, 적극적인 홍보를 할 수 있는 기반을 마련할 계획입니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="chart_image container">
+          <img class="square" data-aos="fade-right"  data-aos-easing="linear" data-aos-duration="1500" src="/img/chart.svg">
+          <div class="pie" data-aos="fade-left"  data-aos-easing="linear" data-aos-duration="1500">
+            <p>Coin name: BlockF | Symbol: BLKF | Protocol: ERC20 </p>
+            <img  src="/img/pie_chart.svg">
+          </div>
+        </div>
+    </section>
+
+    <section id="roadmap">
+      <div class="road_group">
+        <div class="box_road" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+          Roadmap
+        </div>
+        <div class="road_wrap container">
+          <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">Roadmap</h3>
+        </div>
+      </div>
+
+      <content >
+        <article data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="road_1">
+          <div class="road_box">
+            <div class="road_icon"><img src="/img/icon1.png"></div>
+          </div>
+          <div class="icon_road_detai1">
+            <div class="icon_title_1">2022.</div>
+            <div class="icon_desc_1"> Q4 BlockF [블록에프] 출범</div>
+          </div>
+        </div>
+        <div class="road_2">
+          <div class="road_box">
+            <div class="road_icon"><img src="/img/icon7.png"></div>
+          </div>
+          <div class="icon_road_detai2">
+            <div class="icon_title_2">2023.</div>
+            <div class="icon_desc_2"> Q1 플랫폼 핵심 설계 블록에프 코인 적용기술 확정 <br>
+              Q2 블록에프 지갑제작을 통한 홍보 및 편의성 제공<br>
+              Q3 국제 거래소 1차 상장 및 국제 유력 NFT거래소 출품<br>
+              Q4 패션 NFT상품 다각화 및 확대
+            </div>
+          </div>
+        </div>
+        <div class="road_3">
+          <div class="road_box">
+            <div class="road_icon"><img src="/img/icon8.png"></div>
+          </div>
+          <div class="icon_road_detai3">
+            <div class="icon_title_3">2024.</div>
+            <div class="icon_desc_3"> Q1 2차 국제거래소 상장 <br>
+              Q2 국제 NFT패션전 참여<br>
+              Q3 글로벌 NFT 거래소 출품 확대<br>
+              Q4 블록에프 플랫폼 1차 고도화
+            </div>
+          </div>
+        </div>
+        </article>
+
+        
+        
+        
+      </content>
+    </section>
+
+    <section id="contact" >
+      <div class="cont_group">
+        <div class="box_cont"data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000">
+          contact
+        </div>
+        <div class="contact_wrap container">
+          <h3 data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000">Contact</h3>
+          </div>
+      </div>
+      <div class="cont_img"><img src="/img/cont_so.png"></div>      
+      <div class="form_box" data-aos="fade-up" data-aos-duration="1000">
+        <form method="post" onsubmit="return validate();">
+        <input type="text" id="email" placeholder="Email" required>>
+        <input type="text" id="text" placeholder="Message" required>>
+        <input type="submit" value="SUBMIT">
+      </form>
+      </div>
+      
+
+    </section>
+
+  </main>
+  
+
+  <footer>
+    <div class="footer_area container">
+      <div class="white_pp">
+        <h4>Whitepaper</h4>
+        <button type="button" onclick="location.href='BlockF_whitepaper-Kor.pdf' " target="_blank">WhitePaper_Kor</button>
+        <button type="button" onclick="location.href='BlockF_whitepaper-Eng.pdf' ">WhitePaper_Eng</button>
+      </div>
+
+      <ul class="inc">
+        <h4>BlockF Inc.</h4>
+        <!-- <li>운영사 :</li> -->
+        <!-- <li>예금주 : 김성중</li> -->
+        <li>주소 : 서울시 강남구 테헤란로 425</li>
+       <!--  <li>wallet : <span onclick="location.href='#' "></span></li> -->
+        <li>고객센터 : 070-8018-7692 <span>(월~금 10am~5pm시. 점심12~2pm)</span></li>
+      </ul>
+
+      <div class="sns">
+        <h4>Community</h4>
+        <button type="button" onclick="location.href='#' " target="_blank"><i class="xi-telegram"></i></button>
+        <button type="button" onclick="location.href='#' "><i class="xi-kakaotalk"></i></button>
+      </div>
+    </div>
+
+    <p class="footer_p">재단은 코인제작 및 플랫폼 운영, 지갑 관리, 거래소 상장 추진 및 관리에 관한 업무만 진행하고 있습니다.</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+<script src="js/header.js"></script>
+
+
+</body>
+
+
+</html>
